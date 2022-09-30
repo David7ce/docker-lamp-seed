@@ -4,7 +4,7 @@ another Docker with Apache, MySQL 8.0, PHPMyAdmin and PHP.
 
 I use docker-compose as an orchestrator. To run these containers:
 
-``` bash
+```bash
 docker-compose up -d
 ```
 
@@ -40,3 +40,10 @@ docker exec -u root -it {CONTAINER_ID} /bin/bash
 chown -R www-data wp-content
 chmod -R 755 wp-content
 ```
+
+# User info
+
+- Host: db
+- Database: dbname
+- User: root
+- Password: test

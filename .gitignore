@@ -1,0 +1,5 @@
+# ignore directory and all its content
+# www/*
+
+# excludes wp-content for .gitignore
+# !/www/wp-content
