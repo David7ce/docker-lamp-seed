@@ -21,20 +21,16 @@ Don't forget to modify the .gitignore file
 
 ## Other
 Run MySQL client:
-
 ```bash
 docker-compose exec db mysql -u root -p
 ```
 
-
 Wordpress direct problems
-
 ```php
 define('FS_METHOD', 'direct');
 ```
 
 Permissions problems
-
 ```bash
 docker exec -u root -it {CONTAINER_ID} /bin/bash
 chown -R www-data wp-content
@@ -42,8 +38,13 @@ chmod -R 755 wp-content
 ```
 
 # User info
-
 - Host: db
 - Database: dbname
 - User: root
 - Password: test
+
+## localhost info
+- Site title: test-wordpress
+- username: david
+- Password: *F85IDvv7)@)Z6Dm6Z
+- email: mail@gmail.com
