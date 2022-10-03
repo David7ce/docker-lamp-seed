@@ -10,7 +10,7 @@
 * License: GPL2
 */
 
-add_action('wp-loaded', 'UI_proximamente');
+add_action('wp_loaded', 'UI_proximamente');
 
 function UI_proximamente() {
     global $pagenow;
