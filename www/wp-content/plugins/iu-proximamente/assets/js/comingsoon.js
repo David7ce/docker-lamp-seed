@@ -1,10 +1,8 @@
 const countDownDate = new Date("December 25, 2022 00:00:00").getTime();
 
-
 const interval = setInterval( function() {
     const now = new Date().getTime();
 
-    // const msYear = 1000 * 60 * 60 * 24;
     const distance = countDownDate - now;
 
     const days = Math.floor(distance / (1000 * 60 * 60 * 24));
